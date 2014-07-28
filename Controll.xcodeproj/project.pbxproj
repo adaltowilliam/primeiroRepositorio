@@ -82,6 +82,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		879DFA6E1986D2AB00465402 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				87A8074B1986C17F00A73419 /* MasterViewController.h */,
+				87A8074C1986C17F00A73419 /* MasterViewController.m */,
+				87A8074E1986C17F00A73419 /* DetailViewController.h */,
+				87A8074F1986C17F00A73419 /* DetailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		879DFA6F1986D31100465402 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87A807481986C17F00A73419 /* Main.storyboard */,
+				87A807511986C17F00A73419 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		87A8072A1986C17F00A73419 = {
 			isa = PBXGroup;
 			children = (
@@ -462,6 +482,7 @@
 				87A8076A1986C17F00A73419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87A8076B1986C17F00A73419 /* Build configuration list for PBXNativeTarget "ControllTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +491,7 @@
 				87A8076D1986C17F00A73419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
